@@ -1,0 +1,4 @@
+# maven ignore
+target/
+cas.zip
+*.log
