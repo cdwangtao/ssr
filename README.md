@@ -26,18 +26,18 @@ https://github.com/cn2t/doubi-SSR
 
 很多时候，我们为了给VPS加速，会选择不同的方式，比如[BBR](http://freetribe.me/?tag=bbr)、[锐速](http://freetribe.me/?tag=锐速)等，但单独BBR目前就有普通版、[魔改版](http://freetribe.me/?tag=魔改版)和plus版，加上[锐速](http://freetribe.me/?tag=锐速)，无疑需要很多的脚本，这样在安装上也非常的不方便，而最近，loc论坛的网友又发挥了超人的实力，整出了一个集合BBR、BBR魔改、BBR plus、[锐速](http://freetribe.me/?tag=锐速)四合一的脚本，给我们安装提供了极大的方便。
 
-github项目地址2：https://github.com/cx9208/Linux-NetSpeed
+github项目地址：https://github.com/chiakge/Linux-NetSpeed
 
 ~~~shell
+# 原版
 yum install -y wget
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+./tcp.sh
+
+
 wget -N --no-check-certificate "https://raw.githubusercontent.com/cdwangtao/ssr/master/tcp.sh" && chmod +x tcp.sh && sudo bash tcp.sh
 ./tcp.sh
 
-
-# 原版
-wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
-chmod +x tcp.sh
-./tcp.sh
 ~~~
 
 参考：http://freetribe.me/?p=546
